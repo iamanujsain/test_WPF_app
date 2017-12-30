@@ -347,7 +347,7 @@ namespace test_WPF_app
                 }
                 else
                 {
-                    (sender as Button).Content = "X";
+                    (sender as Button).Content = "O";
                     if (gameActive)
                     {
                         Statement.Text = "Player X, make your move!";
